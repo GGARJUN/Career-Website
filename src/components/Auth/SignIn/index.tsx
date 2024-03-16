@@ -27,7 +27,7 @@ const Signin = () => {
 
         if (callback?.ok && !callback?.error) {
           toast.success("Login successful");
-          router.push("/");
+          router.push("/secondary");
         }
       })
       .catch((err) => {
@@ -103,7 +103,7 @@ const Signin = () => {
 
                 <li className="w-full px-2">
                   <button
-                    onClick={() => signIn("github", { callbackUrl: "/" })}
+                    onClick={() => signIn("github", { callbackUrl: "/secondary" })}
                     className="flex h-11 w-full items-center justify-center rounded-md bg-[#1C9CEA] transition hover:bg-opacity-90"
                   >
                     <svg
@@ -122,7 +122,7 @@ const Signin = () => {
                 </li>
                 <li className="w-full px-2">
                   <button
-                    onClick={() => signIn("google", { callbackUrl: "/" })}
+                    onClick={() => signIn("google", { callbackUrl: "/secondary" })}
                     className="flex h-11 w-full items-center justify-center rounded-md bg-[#D64937] transition hover:bg-opacity-90"
                   >
                     <svg

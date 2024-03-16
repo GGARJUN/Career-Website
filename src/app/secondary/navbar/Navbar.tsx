@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-// import menuData from "./menuData";
+import menuData from "./menuData";
 
 const Header = () => {
   const { data: session } = useSession();
@@ -102,8 +102,8 @@ const Header = () => {
                 )}
               </Link>
             </div>
-            <div className="flex w-full items-center justify-end px-4">
-              {/* <div>
+            <div className="flex w-full items-center justify-between px-4">
+              <div>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -259,7 +259,7 @@ const Header = () => {
                     )}
                   </ul>
                 </nav>
-              </div> */}
+              </div>
 
               {/* right side  */}
 
@@ -293,29 +293,32 @@ const Header = () => {
 
                 {session?.user ? (
                   <>
-                  <Link href={'/secondary'}>
-                  <p
-                      className={`loginBtn cursor-pointer px-7 py-3 text-base font-medium ${
-                        !sticky && pathUrl === "/" ? "text-white" : "text-dark"
-                      }`}
-                    >
-                      {session?.user?.name}
-                    </p>
-                  </Link>
+                    <Link href={"/secondary"}>
+                      <p
+                        className={`loginBtn cursor-pointer px-7 py-3 text-base font-medium ${
+                          !sticky && pathUrl === "/"
+                            ? "text-white"
+                            : "text-dark"
+                        }`}
+                      >
+                        {session?.user?.name}
+                      </p>
+                    </Link>
+
                     {pathUrl !== "/" || sticky ? (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn w-28 rounded-lg bg-primary  bg-opacity-100 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
-                      >
-                        Sign Out
-                      </button>
-                    ) : (
-                      <button
-                        onClick={() => signOut()}
-                        className="signUpBtn w-28 rounded-lg bg-white bg-opacity-20 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
-                      >
-                        Sign Out
-                      </button>
+                     <button
+                     onClick={() => signOut({ callbackUrl: "/" })}
+                     className="signUpBtn w-28 rounded-lg bg-primary  bg-opacity-100 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
+                   >
+                     Sign Out
+                   </button>
+                 ) : (
+                   <button
+                     onClick={() => signOut({ callbackUrl: "/" })}
+                     className="signUpBtn w-28 rounded-lg bg-white bg-opacity-20 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
+                   >
+                     Sign Out
+                   </button>
                     )}
                   </>
                 ) : (
@@ -326,13 +329,13 @@ const Header = () => {
                           href="/auth/signin"
                           className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                         >
-                          Log In
+                          Sign In
                         </Link>
                         <Link
                           href="/auth/signup"
                           className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
-                          Register
+                          Sign Up
                         </Link>
                       </>
                     ) : (
@@ -343,7 +346,7 @@ const Header = () => {
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
                         >
-                          Log In
+                          Sign In
                         </Link>
                         <Link
                           href="/auth/signup"
@@ -353,7 +356,7 @@ const Header = () => {
                               : "bg-white/10 hover:bg-white/20"
                           }`}
                         >
-                          Register
+                          Sign Up
                         </Link>
                       </>
                     )}
