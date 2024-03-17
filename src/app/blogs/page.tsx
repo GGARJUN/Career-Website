@@ -2,10 +2,10 @@ import SingleBlog from "@/components/Blog/SingleBlog";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
+import Navbar from "../secondary/navbar/Navbar";
 
 export const metadata: Metadata = {
-  title:
-    "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
   description: "Blog grids page description",
 };
 
@@ -14,6 +14,7 @@ const Blog = () => {
 
   return (
     <>
+      <Navbar />
       <Breadcrumb pageName="Blog Grids" />
 
       <section className="pb-10 pt-20 lg:pb-20 lg:pt-[120px]">

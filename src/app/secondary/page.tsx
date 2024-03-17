@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import  Navbar  from "./navbar/Navbar";
-const page = () => {
+const page =  ({ children } : { children: ReactNode })  => {
   return (
     <>
         <Navbar/>
+        {children}
     </>
   )
 }

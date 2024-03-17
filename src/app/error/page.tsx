@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 import Image from "next/image";
+import Navbar from "../secondary/navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "404 Page | Play SaaS Starter Kit and Boilerplate for Next.js",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 const ErrorPage = () => {
   return (
     <>
+      <Navbar />
       <Breadcrumb pageName="404 Page" />
 
       <section className="bg-white py-20 dark:bg-dark-2 lg:py-[110px]">

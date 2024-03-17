@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Header from "@/components/Header";
 import Team from "@/components/Team";
 import { Metadata } from "next";
+import Navbar from "../secondary/navbar/Navbar";
 
 export const metadata: Metadata = {
   title:
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <main>
-
+      <Navbar/>
       <Breadcrumb pageName="About Us Page" />
       <About />
       <Team />

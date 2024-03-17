@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Faq from "@/components/Faq";
 import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
+import Navbar from "../secondary/navbar/Navbar";
 
 export const metadata: Metadata = {
   title:
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 const PricingPage = () => {
   return (
     <>
+      <Navbar />
       <Breadcrumb pageName="Pricing Page" />
       <Pricing />
       <Faq />
