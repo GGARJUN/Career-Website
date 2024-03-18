@@ -12,7 +12,7 @@ const SignupPage = () => {
   return (
     <>
     <Navbar />
-      <Breadcrumb pageName="Sign Up Page" />
+      {/* <Breadcrumb pageName="Sign Up Page" /> */}
 
       <SignUp />
     </>

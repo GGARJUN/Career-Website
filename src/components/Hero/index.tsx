@@ -215,7 +215,7 @@ const Hero = () => {
                     height={316}
                   />
                 </div>
-                <div className="absolute -left-9 bottom-0 z-[-1]">
+                {/* <div className="absolute -left-9 bottom-0 z-[-1]">
                   <svg
                     width="134"
                     height="106"
@@ -1354,7 +1354,7 @@ const Hero = () => {
                       fill="white"
                     />
                   </svg>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

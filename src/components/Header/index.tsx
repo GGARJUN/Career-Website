@@ -295,9 +295,7 @@ const Header = () => {
                   <>
                   <Link href={'/secondary'}>
                   <p
-                      className={`loginBtn cursor-pointer px-7 py-3 text-base font-medium ${
-                        !sticky && pathUrl === "/" ? "text-white" : "text-dark"
-                      }`}
+                      className={`loginBtn cursor-pointer px-7 py-3 text-dark text-base font-medium `}
                     >
                       {session?.user?.name}
                     </p>
@@ -312,7 +310,7 @@ const Header = () => {
                     ) : (
                       <button
                         onClick={() => signOut()}
-                        className="signUpBtn w-28 rounded-lg bg-white bg-opacity-20 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
+                        className="signUpBtn w-28 rounded-lg bg-primary  bg-opacity-100 px-3 py-1 text-base  font-medium text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark sm:w-32 sm:px-6 sm:py-2"
                       >
                         Sign Out
                       </button>

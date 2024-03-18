@@ -36,7 +36,7 @@ const Signin = () => {
   };
 
   return (
-    <section className="bg-[#F4F7FF] py-14 dark:bg-dark lg:py-20">
+    <section className="bg-[#F4F7FF] py-14 dark:bg-dark lg:pt-20 lg:pb-10">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -47,14 +47,14 @@ const Signin = () => {
               <div className="mb-10 text-center">
                 <Link href="/" className="mx-auto inline-block max-w-[160px]">
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/Logo.png"
                     alt="logo"
                     width={140}
                     height={30}
                     className="dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo-white.svg"
+                    src="/images/logo/Logo.png"
                     alt="logo"
                     width={140}
                     height={30}
