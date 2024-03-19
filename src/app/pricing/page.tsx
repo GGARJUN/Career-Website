@@ -14,9 +14,9 @@ const PricingPage = () => {
   return (
     <>
       <Navbar />
-      <Breadcrumb pageName="Pricing Page" />
+      {/* <Breadcrumb pageName="Pricing Page" />
       <Pricing />
-      <Faq />
+      <Faq /> */}
     </>
   );
 };

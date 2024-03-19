@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <main>
       <ScrollUp />
-      <Hero />
-      <Features />
+      {/* <Hero /> */}
+      {/* <Features />
       <About />
       <CallToAction />
       <Pricing />
@@ -34,7 +34,7 @@ export default function Home() {
       <Team />
       <HomeBlogSection posts={posts} />
       <Contact />
-      <Clients />
+      <Clients /> */}
     </main>
   );
 }
