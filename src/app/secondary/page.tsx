@@ -1,10 +1,10 @@
 import React, { ReactNode } from 'react'
 import  Navbar  from "./navbar/Navbar";
-const page =  ({ children } : { children: ReactNode })  => {
+const page =  ()  => {
   return (
     <>
         <Navbar/>
-        {children}
+        
     </>
   )
 }
