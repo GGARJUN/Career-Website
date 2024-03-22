@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const SignupPage = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       {/* <Breadcrumb pageName="Sign Up Page" /> */}
 
       <SignUp />

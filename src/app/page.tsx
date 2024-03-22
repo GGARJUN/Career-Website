@@ -35,6 +35,7 @@ export default function Home() {
       <HomeBlogSection posts={posts} />
       <Contact />
       <Clients /> */}
+
     </main>
   );
 }
