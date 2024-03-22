@@ -53,7 +53,7 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
+          <div className="relative -mx-10 flex items-center justify-between ">
             <div className="w-60 max-w-full px-4">
               <Link
                 href="/"
@@ -263,7 +263,7 @@ const Header = () => {
 
               {/* right side  */}
 
-              <div className=" flex items-center justify-end pr-16 lg:pr-0">
+              <div className=" flex items-center justify-end pr-2 lg:pr-0">
                 {/* theme toggler */}
                 {/* <button
                   aria-label="theme toggler"
