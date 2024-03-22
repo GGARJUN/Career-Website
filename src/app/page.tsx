@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main>
       <ScrollUp />
-      {/* <Hero /> */}
+      <Hero />
       {/* <Features />
       <About />
       <CallToAction />
