@@ -38,7 +38,7 @@ export default function Working() {
             The Mentoria Solution for College Graduates
             </h1>
             <p className=" mt-7 w-96 text-center text-base font-medium">
-            Discover yourself and your ideal careers. Find out which electives to choose, when to pursue your master's degree and what job roles to apply for.
+            Discover yourself and your ideal careers. Find out which electives to choose, when to pursue your master&apos;s degree and what job roles to apply for.
             </p>
             <div className="m-7 flex w-60 items-center justify-center rounded-full border-2 bg-blue-600  px-10 py-3 text-white transition-all hover:bg-blue-700">
               <button className="font-semibold">GET STARTED</button>
@@ -588,7 +588,7 @@ export default function Working() {
             Planning to study abroad?
             </h1>
             <p className="my-8 text-xl font-medium text-white">
-            Build your overseas education plan with a comprehensive, unbiased action plan from India's top admissions experts.
+            Build your overseas education plan with a comprehensive, unbiased action plan from India&apos;s top admissions experts.
             </p>
             <button className="rounded-full bg-blue-600 px-8 py-3 font-medium text-white">
               VIEW PLAN

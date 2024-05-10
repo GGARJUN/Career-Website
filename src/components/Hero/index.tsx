@@ -203,7 +203,7 @@ const Hero = () => {
 
         <div>
           <h1 className="px-20 text-center text-[40px] font-bold leading-[50px] text-[#2a3166]">
-            Here's How India is Getting #CareerReady with Mentoria
+            Here&apos;s How India is Getting #CareerReady with Mentoria
           </h1>
           <Link href={"/auth/signup"} passHref>
             <div className="mt-10 flex items-center justify-center">
