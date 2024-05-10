@@ -3,6 +3,7 @@ import Faq from "@/components/Faq";
 import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
 import Navbar from "../secondary/navbar/Navbar";
+import NewSite from "@/components/NewSite";
 
 export const metadata: Metadata = {
   title:
@@ -15,7 +16,8 @@ const PricingPage = () => {
     <>
       <Navbar />
       <Breadcrumb pageName="Pricing Page" />
-      <Pricing />
+      <NewSite/>
+      {/* <Pricing /> */}
       {/* <Faq /> */}
     </>
   );

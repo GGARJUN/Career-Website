@@ -1,0 +1,25 @@
+import Breadcrumb from "@/components/Common/Breadcrumb";
+import { Metadata } from "next";
+
+import NewSite from "@/components/NewSite";
+import Link from "next/link";
+import Navbar from "@/app/secondary/navbar/Navbar";
+
+export const metadata: Metadata = {
+  title:
+    "Pricing Page | Play SaaS Starter Kit and Boilerplate for Next.js",
+  description: "This is pricing page description",
+};
+
+const PricingPage = () => {
+  return (
+    <>
+      <Navbar />
+      <Breadcrumb pageName="Assessment Test "  />
+      <span className="border-2 my-4 drop-shadow-2xl flex border-blue-600"></span>
+      <NewSite/>
+    </>
+  );
+};
+
+export default PricingPage;

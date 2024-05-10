@@ -1,39 +1,44 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
-    id: 1,
-    title: "Home",
-    path: "/",
-    newTab: false,
-  },
+
   {
     id: 2,
-    title: "About",
-    path: "/about",
+    title: "Students",
     newTab: false,
+    submenu: [
+      {
+        id: 21,
+        title: "8th-9th",
+        path: "/students",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "10th-12th",
+        path: "/students1",
+        newTab: false,
+      },
+    ]
   },
   {
     id: 3,
-    title: "Pricing",
-    path: "/pricing",
+    title: "College Graduates",
+    path: "/college",
     newTab: false,
   },
   {
     id: 5,
-    title: "Contact",
-    path: "/contact",
+    title: "Working Professional",
+    path: "/working",
     newTab: false,
   },
-  {
-    id: 5,
-    title: "Blog",
-    path: "/blogs",
-    newTab: false,
-  },
+  
+
+ 
   {
     id: 6,
-    title: "Pages",
+    title: "Knowledge",
     newTab: false,
     submenu: [
       {
@@ -79,6 +84,12 @@ const menuData: Menu[] = [
         newTab: false,
       },
     ],
+  },
+  {
+    id: 5,
+    title: "Contact",
+    path: "/contact",
+    newTab: false,
   },
 ];
 export default menuData;

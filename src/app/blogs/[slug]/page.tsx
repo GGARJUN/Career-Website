@@ -173,6 +173,7 @@ export default async function Post({ params }: Props) {
                 <div className="w-full px-4 lg:w-8/12">
                   <div className="blog-details xl:pr-10">
                     <div dangerouslySetInnerHTML={{ __html: content }}></div>
+                    {/* <div className="my-40 text-5xl font-extrabold">Hello</div> */}
                   </div>
                 </div>
                 <div className="w-full px-4 lg:w-4/12">
