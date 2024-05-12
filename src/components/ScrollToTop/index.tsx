@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function ScrollToTop() {
@@ -28,16 +30,23 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="fixed bottom-8 right-8 z-[999]">
-      {isVisible && (
-        <div
-          onClick={scrollToTop}
-          aria-label="scroll to top"
-          className="back-to-top flex h-10 w-10 cursor-pointer items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-black hover:scale-110"
-        >
-          <span className="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white"></span>
+    <>
+      <Link href="https://app.droxy.ai/guest-chatbot/663fd63c93dab31e54538432">
+        <div className="fixed bottom-20 right-1 z-50 animate-bounce">
+          <Image src={"/images/chatB.svg"} alt="hero" width={100} height={100} />
         </div>
-      )}
-    </div>
+      </Link>
+      <div className="fixed bottom-8 right-8 z-[999]">
+        {isVisible && (
+          <div
+            onClick={scrollToTop}
+            aria-label="scroll to top"
+            className="back-to-top flex h-10 w-10 cursor-pointer items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:scale-110 hover:bg-black"
+          >
+            <span className="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white"></span>
+          </div>
+        )}
+      </div>
+    </>
   );
 }
