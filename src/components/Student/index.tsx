@@ -44,7 +44,7 @@ export default function Students() {
               TRUSTED BY 2,20,000+ USERS
             </h2>
             <h1 className="my-2 text-center text-4xl  font-bold">
-              Mentoria’s Career Counselling Solution for Classes 10-12
+              CareerGadence AI’s Career Counselling Solution for Classes 10-12
             </h1>
             <p className=" mt-7 w-96 text-center text-base font-medium">
               Discover yourself and your future paths. Find out which subjects,
@@ -223,13 +223,13 @@ export default function Students() {
                   Explore Career Articles
                 </h1>
                 <p className="mt-2 text-base font-light text-slate-600">
-                  Get to know your chosen careers in detail through Mentoria’s
+                  Get to know your chosen careers in detail through CareerGadence AI’s
                   Career Library. Find out which courses you need to prepare
                   for, skills you need to develop, eventual specialisations in
                   your career, how much you will earn in those careers and much
                   more. You can also explore additional information on courses,
-                  careers and more through Mentoria’s blog, and get all your
-                  career-related queries answered through Mentoria’s career
+                  careers and more through CareerGadence AI’s blog, and get all your
+                  career-related queries answered through CareerGadence AI’s career
                   helpline.​
                 </p>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
@@ -469,20 +469,20 @@ export default function Students() {
             Frequently Asked Questions
           </h1>
           <Accordion type="single" collapsible className="w-full">
-            <h1 className="ml-3 mt-5 text-xl font-semibold">ABOUT MENTORIA</h1>
+            <h1 className="ml-3 mt-5 text-xl font-semibold">ABOUT CareerGadence AI</h1>
             <AccordionItem value="item-1" className="mt-5">
               <AccordionTrigger className="rounded-full border-2 px-10 text-2xl font-bold text-blue-600 shadow-xl">
-              How can I contact Mentoria for career guidance after 10th and 12th?
+              How can I contact CareerGadence AI for career guidance after 10th and 12th?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-                You can email us on info@mentoria.com Call/WhatsApp us on
+                You can email us on info@CareerGadence AI.com Call/WhatsApp us on
                 +918291856155. Head to our chatbox on the website (bottom right)
                 and start chatting.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="mt-5">
               <AccordionTrigger className="rounded-full border-2 px-10 text-2xl font-bold text-blue-600 shadow-xl">
-              How are Mentoria’s career counsellors an ideal option over other career counsellors?
+              How are CareerGadence AI’s career counsellors an ideal option over other career counsellors?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
               Looking for career guidance after 10th or career counselling after 12th? Our career counsellors come from education and/or psychology backgrounds with at least 5 years of experience in their fields. They also undergo an intensive counsellor training and certification programme to provide you with personalised and quality education/career guidance and counselling. They validate your career report findings by asking you questions to understand you better. They analyse your personality and abilities to determine your strengths and development areas, and recommend effective learning plans to improve upon your development areas. Then, they help you shortlist your top three careers, and finalise your next steps. Choose between customised guidance plans to accommodate your needs, get lifetime access to our Knowledge Gateway and a whole lot more. Want to know how we can help you get career guidance after 10th to 12th? Get on a call with our career mentors to find out!
@@ -527,19 +527,19 @@ export default function Students() {
               Do you also have offline sessions for students?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-              Yes, we have begun offering offline career counselling after 10th in select cities at additional pricing. If you want an offline session, please give us a call on 8291856155 or send us an email at info@mentoria.com to check if we have offline career counselling in your city.
+              Yes, we have begun offering offline career counselling after 10th in select cities at additional pricing. If you want an offline session, please give us a call on 8291856155 or send us an email at info@CareerGadence AI.com to check if we have offline career counselling in your city.
               </AccordionContent>
             </AccordionItem>
             <span className="my-7 flex border border-black "></span>
             <AccordionItem value="item-8" className="mt-5">
               <h1 className="my-5 ml-3 text-xl font-semibold">
-                THE MENTORIA SOLUTION
+                THE CareerGadence AI SOLUTION
               </h1>
               <AccordionTrigger className="rounded-full border-2 px-10 text-2xl font-bold text-blue-600 shadow-xl">
-              What is the Mentoria assessment?
+              What is the CareerGadence AI assessment?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-              The Mentoria assessment is India’s most holistic psychometric career assessment that measures your core interests, personality and abilities to help you understand who you are and what you will enjoy doing. This assessment is specially created by a team of experts for Indian millennials and is based on 21st-century careers. It has been created by a specialised team of psychometricians and psychologists from DRDO, Jamia Millia Islamia and Ferguson College. This assessment asks you questions to understand you better - you don’t have to study for it!
+              The CareerGadence AI assessment is India’s most holistic psychometric career assessment that measures your core interests, personality and abilities to help you understand who you are and what you will enjoy doing. This assessment is specially created by a team of experts for Indian millennials and is based on 21st-century careers. It has been created by a specialised team of psychometricians and psychologists from DRDO, Jamia Millia Islamia and Ferguson College. This assessment asks you questions to understand you better - you don’t have to study for it!
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-9" className="mt-5">
@@ -547,7 +547,7 @@ export default function Students() {
               What’s next after the assessment?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-              Once you have completed the career assessment, you can pick a Mentoria career guidance plan that matches your needs. Choose the right plan and book your career counselling session with one of our career counsellors by sharing your preferred date and time slots. The career counselling session will mostly take place online via a video call, unless you opt for an offline session. Through the session, your career counsellor will explain your assessment report, validate your interest areas with real-life experiences, and help you choose the top three careers ideal for you. This session will also help you plan your academic journey by finalising your stream, course and subjects. Your parents will have to join the last 15-20 minutes of the session, so the counsellor can help them understand where your interests lie and how they can help you get into your chosen career. Our counsellors will also help you understand your strengths and development areas, and recommend a learning plan for those development areas.
+              Once you have completed the career assessment, you can pick a CareerGadence AI career guidance plan that matches your needs. Choose the right plan and book your career counselling session with one of our career counsellors by sharing your preferred date and time slots. The career counselling session will mostly take place online via a video call, unless you opt for an offline session. Through the session, your career counsellor will explain your assessment report, validate your interest areas with real-life experiences, and help you choose the top three careers ideal for you. This session will also help you plan your academic journey by finalising your stream, course and subjects. Your parents will have to join the last 15-20 minutes of the session, so the counsellor can help them understand where your interests lie and how they can help you get into your chosen career. Our counsellors will also help you understand your strengths and development areas, and recommend a learning plan for those development areas.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-10" className="mt-5">
@@ -555,20 +555,20 @@ export default function Students() {
               What’s next after the career counselling session?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-              Once your career counselling session is done, you will be able to unlock the Knowledge Gateway. Log in to your Mentoria account to view your dashboard, which will contain details on your shortlisted careers. Get detailed careers guides, access to Mentoria’s blogs on courses, careers, skill development and more. View pre-recorded webinars by experts from your chosen industry to understand what really goes on in your shortlisted careers. In case you can’t find what you’re looking for, make the most of your unlimited access to a dedicated career helpline, where you can email your career-related queries from the time your session is done until you get into a career you love. If you have subscribed to the Plus plan, you will also receive a summary report via email which includes your next academic steps.
+              Once your career counselling session is done, you will be able to unlock the Knowledge Gateway. Log in to your CareerGadence AI account to view your dashboard, which will contain details on your shortlisted careers. Get detailed careers guides, access to CareerGadence AI’s blogs on courses, careers, skill development and more. View pre-recorded webinars by experts from your chosen industry to understand what really goes on in your shortlisted careers. In case you can’t find what you’re looking for, make the most of your unlimited access to a dedicated career helpline, where you can email your career-related queries from the time your session is done until you get into a career you love. If you have subscribed to the Plus plan, you will also receive a summary report via email which includes your next academic steps.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-11" className="mt-5">
               <AccordionTrigger className="rounded-full border-2 px-10 text-2xl font-bold text-blue-600 shadow-xl">
-              How will I get the benefits of the full Mentoria Solution?
+              How will I get the benefits of the full CareerGadence AI Solution?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
-              You can register by clicking right hereand completing the career assessment. Once this is done, choose your career guidance plan and complete the payment to unlock the full Mentoria solution.
+              You can register by clicking right hereand completing the career assessment. Once this is done, choose your career guidance plan and complete the payment to unlock the full CareerGadence AI solution.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-12" className="mt-5">
               <AccordionTrigger className="rounded-full border-2 px-10 text-2xl font-bold text-blue-600 shadow-xl">
-              What is the price of Mentoria’s Career Guidance Solution for 10th and 12th?
+              What is the price of CareerGadence AI’s Career Guidance Solution for 10th and 12th?
               </AccordionTrigger>
               <AccordionContent className="mt-2 rounded-xl border-2 px-10 py-2 text-base font-semibold ">
               That would depend on the plan you choose. View our career guidance plans and their pricing by clicking here. If you want to book an offline session, contact our team on 8291856155 to inquire about our offline career guidance centres and additional costs for the same.

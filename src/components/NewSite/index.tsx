@@ -131,7 +131,7 @@ const OMRSheet = () => {
     },
     {
       id: 11,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "11. I love to talk about a great idea to others and excite them.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -143,7 +143,7 @@ const OMRSheet = () => {
     },
     {
       id: 12,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "12. I enjoy typing a document accurately",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -155,7 +155,7 @@ const OMRSheet = () => {
     },
     {
       id: 13,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "13. I enjoy working with tools like a hammer, screw-driver, spanner, wrench etc.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -167,7 +167,7 @@ const OMRSheet = () => {
     },
     {
       id: 14,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "14. I would like to learn a computer programming language (Java, GW-Basic, etc.)",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -179,7 +179,7 @@ const OMRSheet = () => {
     },
     {
       id: 15,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "15. I enjoy decorating my scrapbook with various cut-outs and drawings.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -191,7 +191,7 @@ const OMRSheet = () => {
     },
     {
       id: 16,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "16. I would enjoy interacting with customers to understand their needs.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -203,7 +203,7 @@ const OMRSheet = () => {
     },
     {
       id: 17,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "17. I enjoy defending my point of view using logical arguments.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -215,7 +215,7 @@ const OMRSheet = () => {
     },
     {
       id: 18,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "18. I enjoy checking documents to spot errors.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -227,7 +227,7 @@ const OMRSheet = () => {
     },
     {
       id: 19,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "19. I enjoy assisting someone who is repairing a bike or a car.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -239,7 +239,7 @@ const OMRSheet = () => {
     },
     {
       id: 20,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "20. I am interested in knowing more about the hardware and software functions in a computer.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -251,7 +251,7 @@ const OMRSheet = () => {
     },
     {
       id: 21,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "21. I am interested in learning the art of photography.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -263,7 +263,7 @@ const OMRSheet = () => {
     },
     {
       id: 22,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "22. I think receptionists have an interesting job.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -275,7 +275,7 @@ const OMRSheet = () => {
     },
     {
       id: 23,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "23. I like to engage in logical arguments with someone to prove my point.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -287,7 +287,7 @@ const OMRSheet = () => {
     },
     {
       id: 24,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "24. It is interesting to maintain records in an accurate and up-to-date manner.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -299,7 +299,7 @@ const OMRSheet = () => {
     },
     {
       id: 25,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "25. I enjoy being a part of a sports team.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -311,7 +311,7 @@ const OMRSheet = () => {
     },
     {
       id: 26,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "26. I would like to be part of the archaeological research and exploration team.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -323,7 +323,7 @@ const OMRSheet = () => {
     },
     {
       id: 27,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "27. I enjoy editing and decorating photos.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -335,7 +335,7 @@ const OMRSheet = () => {
     },
     {
       id: 28,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "28. I like to take care of an ill person.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -347,7 +347,7 @@ const OMRSheet = () => {
     },
     {
       id: 29,
-      question: "10. I would be interested to solve complaints of customers.",
+      question: "29. I like to explain my views to others and get their agreement.",
       options: [
         "Strongly disagree",
         "Disagree",
@@ -465,7 +465,7 @@ const OMRSheet = () => {
             </button>
           )}
 
-          <Link href={'/result'} >
+          <Link href={'/assessment/john'} >
           {currentQuestion === questions.length - 1 && !showResult && (
             <button
               onClick={handleShowResult}

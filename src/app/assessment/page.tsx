@@ -15,6 +15,7 @@ const PricingPage = () => {
       <Breadcrumb pageName="Assessment Test"  />
       <span className="border-2 my-4 drop-shadow-2xl flex border-blue-600"></span>
       <NewSite/>
+      
     </>
   );
 };

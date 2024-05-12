@@ -38,31 +38,31 @@ const menuData: Menu[] = [
  
   {
     id: 6,
-    title: "Knowledge",
+    title: "All Pages",
     newTab: false,
     submenu: [
       {
         id: 61,
-        title: "About Page",
-        path: "/about",
+        title: "8th-9th",
+        path: "/students",
         newTab: false,
       },
       {
         id: 62,
-        title: "Pricing Page",
-        path: "/pricing",
+        title: "10th-12th",
+        path: "/students1",
         newTab: false,
       },
       {
         id: 63,
-        title: "Contact Page",
-        path: "/contact",
+        title: "College Graduates",
+        path: "/college",
         newTab: false,
       },
       {
         id: 64,
-        title: "Blog Grid Page",
-        path: "/blogs",
+        title: "Working Professional",
+        path: "/working",
         newTab: false,
       },
       {

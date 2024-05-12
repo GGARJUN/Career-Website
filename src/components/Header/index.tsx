@@ -322,7 +322,7 @@ const Header = () => {
                       <>
                         <Link
                           href="/auth/signin"
-                          className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
+                          className="px-7 py-3 text-base font-medium text-dark hover:opacity-70  dark:text-white"
                         >
                           Log In
                         </Link>
@@ -337,7 +337,7 @@ const Header = () => {
                       <>
                         <Link
                           href="/auth/signin"
-                          className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
+                          className={`px-7 py-3 text-base font-medium text-black  hover:opacity-70 ${
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
                         >
@@ -345,11 +345,7 @@ const Header = () => {
                         </Link>
                         <Link
                           href="/auth/signup"
-                          className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
-                            sticky
-                              ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
-                              : "bg-white/10 hover:bg-white/20"
-                          }`}
+                          className={`rounded-lg px-6 py-3 text-base font-medium  text-white bg-blue-600 duration-300 ease-in-out `}
                         >
                           Register
                         </Link>

@@ -140,9 +140,12 @@ const page = () => {
               <p className="mt-6 font-light text-slate-500">
                 Choose the right stream and subject
               </p>
-              <h3 className="mt-3 flex font-semibold text-blue-800">
+              <Link href={"/students"} >
+              <h3 className="mt-3 flex font-semibold text-blue-800 hover:scale-110 hover:translate-x-2 transition-all ease-in-out duration-200">
                 Know More <ChevronRight />
               </h3>
+              </Link>
+              
             </motion.div>
 
             <motion.div
@@ -158,9 +161,11 @@ const page = () => {
               <p className="mt-6 font-light text-slate-500">
                 Choose the right stream and subject
               </p>
-              <h3 className="mt-3 flex font-semibold text-blue-800">
+              <Link href={"/students"} >
+              <h3 className="mt-3 flex font-semibold text-blue-800 hover:scale-110 hover:translate-x-2 transition-all ease-in-out duration-200">
                 Know More <ChevronRight />
               </h3>
+              </Link>
             </motion.div>
 
             <motion.div
@@ -176,9 +181,11 @@ const page = () => {
               <p className="mt-6 font-light text-slate-500">
                 Choose the right stream and subject
               </p>
-              <h3 className="mt-3 flex font-semibold text-blue-800">
+              <Link href={"/students"} >
+              <h3 className="mt-3 flex font-semibold text-blue-800 hover:scale-110 hover:translate-x-2 transition-all ease-in-out duration-200">
                 Know More <ChevronRight />
               </h3>
+              </Link>
             </motion.div>
 
             <motion.div
@@ -194,9 +201,11 @@ const page = () => {
               <p className="mt-6 font-light text-slate-500">
                 Choose the right stream and subject
               </p>
-              <h3 className="mt-3 flex font-semibold text-blue-800">
+              <Link href={"/students"} >
+              <h3 className="mt-3 flex font-semibold text-blue-800 hover:scale-110 hover:translate-x-2 transition-all ease-in-out duration-200">
                 Know More <ChevronRight />
               </h3>
+              </Link>
             </motion.div>
           </motion.div>
         </div>
@@ -205,9 +214,9 @@ const page = () => {
 
         <div>
           <h1 className="px-20 text-center text-[40px] font-bold leading-[50px] text-[#2a3166]">
-            Here&apos;s How India is Getting #CareerReady with Mentoria
+            Here&apos;s How India is Getting #CareerReady with CareerGaidence AI
           </h1>
-          <Link href={"/auth/signup"} passHref>
+          <Link href={"/assessment"} passHref>
             <div className="mt-10 flex items-center justify-center">
               <button className="rounded-full bg-blue-700 px-12 py-3 font-medium text-white">
                 GET STARTED
@@ -294,12 +303,16 @@ const page = () => {
               TRUSTED BY 2,20,000+ USERS
             </h4>
             <h1 className="px-28 text-center text-4xl font-bold ">
-              <span className="text-blue">The Mentoria Solution</span> is lot
+              <span className="text-blue">The CareerGadence AI Solution</span> is lot
               more than assessment and counselling.{" "}
             </h1>
-            <button className="rounded-full bg-blue-700 px-16 py-3 font-medium">
-              GET STARTED
-            </button>
+            <Link href={"/assessment"} passHref>
+            <div className="mt-10 flex items-center justify-center">
+              <button className="rounded-full bg-blue-700 px-12 py-3 font-medium text-white">
+                GET STARTED
+              </button>
+            </div>
+          </Link>
             <div className="absolute  right-[300px] top-20 h-10 w-10 animate-bounce rounded-full bg-yellow-400 shadow-2xl blur-sm"></div>
             <div className=" absolute -top-10  right-[350px] -z-10 h-28 w-28 rounded-full bg-blue-700 shadow-2xl  blur-sm"></div>
             <div className="absolute -bottom-10 -left-20 -z-10 h-40 w-40 rounded-full bg-[#BD1E24]  shadow-2xl blur-sm "></div>
@@ -366,9 +379,11 @@ const page = () => {
                   multiple career counselling sessions with our top counsellors
                   and customised reports after each session.​
                 </p>
-                <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
-                  GET STARTED
-                </button>
+               <Link href={'/assessment'}>
+                  <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
+                    GET STARTED
+                  </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW PLUS REPORT <ChevronRight />
                 </h2>
@@ -390,18 +405,20 @@ const page = () => {
                   Explore Career Articles
                 </h1>
                 <p className="mt-2 text-base font-light text-slate-600">
-                  Get to know your chosen careers in detail through Mentoria’s
+                  Get to know your chosen careers in detail through CareerGadence AI’s
                   Career Library. Find out which courses you need to prepare
                   for, skills you need to develop, eventual specialisations in
                   your career, how much you will earn in those careers and much
                   more. You can also explore additional information on courses,
-                  careers and more through Mentoria’s blog, and get all your
-                  career-related queries answered through Mentoria’s career
+                  careers and more through CareerGadence AI’s blog, and get all your
+                  career-related queries answered through CareerGadence AI’s career
                   helpline.​
                 </p>
-                <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
-                  GET STARTED
-                </button>
+               <Link href={'/assessment'}>
+                  <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
+                    GET STARTED
+                  </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW CAREER REPORT <ChevronRight />
                 </h2>
@@ -429,9 +446,11 @@ const page = () => {
                   insights and more. Plus plan users get exclusive invites to
                   live webinars with experts.​
                 </p>
-                <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
-                  GET STARTED
-                </button>
+                <Link href={'/assessment'}>
+                  <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
+                    GET STARTED
+                  </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW SAMPLE REPORT <ChevronRight />
                 </h2>
@@ -458,9 +477,11 @@ const page = () => {
                   Planning to apply for jobs or internships? Check out our
                   JobReady packages!​
                 </p>
-                <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
-                  CALL A MENTOR
-                </button>
+                <Link href={'/contact'}>
+                  <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
+                    CALL A MENTOR
+                  </button>
+                </Link>
                 <h2 className="mt-4 flex font-bold text-blue-700">
                   VIEW COLLEGE ADMISSION PLANNERS <ChevronRight />
                 </h2>
@@ -503,11 +524,11 @@ const page = () => {
                 alt="lo"
                 width={200}
                 height={100}
-                className="bg-blue rounded-full  p-1 drop-shadow-xl"
+                className="rounded-full bg-blue  p-1 drop-shadow-xl"
               />
               <div className="w-[50%]">
                 <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+                  ARJUN 
                 </h1>
                 <p className="my-2 text-center text-slate-500">
                   Software Developer
@@ -521,14 +542,14 @@ const page = () => {
             <div className="flex h-60 w-[600px] items-center justify-around gap-10 rounded-xl border-2 px-3  shadow-xl ">
               <div className="w-[50%]">
                 <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+                  SANJAY 
                 </h1>
                 <p className="my-2 text-center text-slate-500">
-                  Software Developer
+                  Android Developer
                 </p>
                 <hr className=" mb-5  w-full border border-slate-900  " />
                 <p className="text-center text-lg text-slate-500">
-                  Team Leader
+                  Team Member
                 </p>
               </div>
               <Image
@@ -536,7 +557,7 @@ const page = () => {
                 alt="lo"
                 width={200}
                 height={100}
-                className="bg-blue rounded-full  p-1 drop-shadow-xl"
+                className="rounded-full bg-blue  p-1 drop-shadow-xl"
               />
             </div>
             <div className="flex h-60 w-[600px] items-center justify-around gap-10 rounded-xl border-2 px-3  shadow-xl ">
@@ -545,14 +566,14 @@ const page = () => {
                 alt="lo"
                 width={200}
                 height={100}
-                className="bg-blue rounded-full  p-1 drop-shadow-xl"
+                className="rounded-full bg-blue  p-1 drop-shadow-xl"
               />
-              <div className="w-[50%]">
-                <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+              <div className="w-[60%]">
+                <h1 className="text-center mr-10 text-4xl font-bold text-blue-600">
+                  SABAREESWARAN
                 </h1>
                 <p className="my-2 text-center text-slate-500">
-                  Software Developer
+                  Data Analysis
                 </p>
                 <hr className=" mb-5  w-full border border-slate-900  " />
                 <p className="text-center text-lg text-slate-500">

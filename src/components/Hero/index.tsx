@@ -203,7 +203,7 @@ const Hero = () => {
 
         <div>
           <h1 className="px-20 text-center text-[40px] font-bold leading-[50px] text-[#2a3166]">
-            Here&apos;s How India is Getting #CareerReady with Mentoria
+            Here&apos;s How India is Getting #CareerReady with CareerGaidence AI
           </h1>
           <Link href={"/auth/signup"} passHref>
             <div className="mt-10 flex items-center justify-center">
@@ -292,10 +292,10 @@ const Hero = () => {
               TRUSTED BY 2,20,000+ USERS
             </h4>
             <h1 className="px-28 text-center text-4xl font-bold ">
-              <span className="text-blue">The Mentoria Solution</span> is lot
+              <span className="text-blue">The CareerGadence AI Solution</span> is lot
               more than assessment and counselling.{" "}
             </h1>
-            <button className="rounded-full bg-blue px-16 py-3 font-medium">
+            <button className="rounded-full bg-blue-700 px-16 py-3 font-medium">
               GET STARTED
             </button>
             <div className="absolute  right-[300px] top-20 h-10 w-10 animate-bounce rounded-full bg-yellow-400 shadow-2xl blur-sm"></div>
@@ -327,9 +327,11 @@ const Hero = () => {
                   excel at. Get a clear analysis at the next step - career
                   counselling.​
                 </p>
+                <Link href={"/auth/signup"} passHref>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
                   GET STARTED
                 </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW SAMPLE REPORT <ChevronRight />
                 </h2>
@@ -362,9 +364,11 @@ const Hero = () => {
                   multiple career counselling sessions with our top counsellors
                   and customised reports after each session.​
                 </p>
+                <Link href={"/auth/signup"} passHref>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
                   GET STARTED
                 </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW PLUS REPORT <ChevronRight />
                 </h2>
@@ -386,18 +390,20 @@ const Hero = () => {
                   Explore Career Articles
                 </h1>
                 <p className="mt-2 text-base font-light text-slate-600">
-                  Get to know your chosen careers in detail through Mentoria’s
+                  Get to know your chosen careers in detail through CareerGadence AI’s
                   Career Library. Find out which courses you need to prepare
                   for, skills you need to develop, eventual specialisations in
                   your career, how much you will earn in those careers and much
                   more. You can also explore additional information on courses,
-                  careers and more through Mentoria’s blog, and get all your
-                  career-related queries answered through Mentoria’s career
+                  careers and more through CareerGadence AI’s blog, and get all your
+                  career-related queries answered through CareerGadence AI’s career
                   helpline.​
                 </p>
+                <Link href={"/auth/signup"} passHref>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
                   GET STARTED
                 </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW CAREER REPORT <ChevronRight />
                 </h2>
@@ -425,9 +431,11 @@ const Hero = () => {
                   insights and more. Plus plan users get exclusive invites to
                   live webinars with experts.​
                 </p>
+                <Link href={"/auth/signup"} passHref>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
                   GET STARTED
                 </button>
+                </Link>
                 <h2 className="mt-4 flex font-medium text-blue-700">
                   VIEW SAMPLE REPORT <ChevronRight />
                 </h2>
@@ -454,9 +462,11 @@ const Hero = () => {
                   Planning to apply for jobs or internships? Check out our
                   JobReady packages!​
                 </p>
+                <Link href={"/auth/signup"} passHref>
                 <button className="mt-5 rounded-full bg-blue-800 px-16 py-3 font-medium text-white">
                   CALL A MENTOR
                 </button>
+                </Link>
                 <h2 className="mt-4 flex font-bold text-blue-700">
                   VIEW COLLEGE ADMISSION PLANNERS <ChevronRight />
                 </h2>
@@ -503,7 +513,7 @@ const Hero = () => {
               />
               <div className="w-[50%]">
                 <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+                  ARJUN 
                 </h1>
                 <p className="my-2 text-center text-slate-500">
                   Software Developer
@@ -517,14 +527,14 @@ const Hero = () => {
             <div className="flex h-60 w-[600px] items-center justify-around gap-10 rounded-xl border-2 px-3  shadow-xl ">
               <div className="w-[50%]">
                 <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+                  SANJAY 
                 </h1>
                 <p className="my-2 text-center text-slate-500">
-                  Software Developer
+                  Android Developer
                 </p>
                 <hr className=" mb-5  w-full border border-slate-900  " />
                 <p className="text-center text-lg text-slate-500">
-                  Team Leader
+                  Team Member
                 </p>
               </div>
               <Image
@@ -543,12 +553,12 @@ const Hero = () => {
                 height={100}
                 className="rounded-full bg-blue  p-1 drop-shadow-xl"
               />
-              <div className="w-[50%]">
-                <h1 className="text-center text-4xl font-bold text-blue-600">
-                  ARJUN G G
+              <div className="w-[60%]">
+                <h1 className="text-center mr-10 text-4xl font-bold text-blue-600">
+                  SABAREESWARAN
                 </h1>
                 <p className="my-2 text-center text-slate-500">
-                  Software Developer
+                  Data Analysis
                 </p>
                 <hr className=" mb-5  w-full border border-slate-900  " />
                 <p className="text-center text-lg text-slate-500">
