@@ -505,7 +505,7 @@ const Hero = () => {
           <div className="mx-10 my-14 flex flex-col items-center justify-center gap-10  ">
             <div className="flex h-60 w-[600px] items-center justify-around gap-10 rounded-xl border-2 px-3  shadow-xl ">
               <Image
-                src="/images/hero/arjun.jpg"
+                src="/images/hero/Arjun1.jpg"
                 alt="lo"
                 width={200}
                 height={100}
@@ -538,7 +538,7 @@ const Hero = () => {
                 </p>
               </div>
               <Image
-                src="/images/hero/arjun.jpg"
+                src="/images/hero/Sanjay.jpg"
                 alt="lo"
                 width={200}
                 height={100}
@@ -547,7 +547,7 @@ const Hero = () => {
             </div>
             <div className="flex h-60 w-[600px] items-center justify-around gap-10 rounded-xl border-2 px-3  shadow-xl ">
               <Image
-                src="/images/hero/arjun.jpg"
+                src="/images/hero/Sabari.jpg"
                 alt="lo"
                 width={200}
                 height={100}
