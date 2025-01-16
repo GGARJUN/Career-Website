@@ -31,11 +31,6 @@ export default function ScrollToTop() {
 
   return (
     <>
-      <Link href="https://app.droxy.ai/guest-chatbot/663fd63c93dab31e54538432">
-        <div className="fixed bottom-20 right-1 z-50 animate-bounce">
-          <Image src={"/images/chatB.svg"} alt="hero" width={100} height={100} />
-        </div>
-      </Link>
       <div className="fixed bottom-8 right-8 z-[999]">
         {isVisible && (
           <div

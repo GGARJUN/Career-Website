@@ -338,7 +338,7 @@ const Header = () => {
                         <Link
                           href="/auth/signin"
                           className={`px-7 py-3 text-base font-medium text-black  hover:opacity-70 ${
-                            sticky ? "text-dark dark:text-white" : "text-white"
+                            sticky ? "text-dark " : "text-white"
                           }`}
                         >
                           Log In
